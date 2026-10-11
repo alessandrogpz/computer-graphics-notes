@@ -46,6 +46,7 @@ game-engine-notes/
 ├── 09_Tools_and_Pipeline/             # README.md + 00_Roadmap.md; no notes yet
 ├── 10_Audio/                          # README.md + 00_Roadmap.md; no notes yet
 ├── 11_Networking/                     # README.md + 00_Roadmap.md; no notes yet
+├── 12_Research/                       # Field orientation: venues, papers, open questions
 │
 ├── 90_Code/                           # One buildable C++23 project
 │   ├── README.md                      #   Index — every module, and the build commands

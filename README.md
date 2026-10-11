@@ -1,8 +1,10 @@
-# Game Engine Notes
+# Computer Graphics Notes
 
-A personal knowledge base for building game and rendering engines — theory notes, worked exercises, and runnable implementations, spanning mathematics through rendering, physics, architecture and systems programming.
+A personal knowledge base for computer graphics and the engines it runs inside — theory notes, worked exercises, runnable implementations, and an orientation in the field as a research discipline. It spans mathematics through rendering, physics, architecture and systems programming.
 
 It is an **Obsidian** vault that stays fully readable on **GitHub**. Every cross-reference is a relative markdown link, so the knowledge graph works in both.
+
+This is the hub. The buildable projects live in their own repositories — see [Projects](#projects).
 
 ---
 
@@ -33,11 +35,33 @@ New here? Start with [Your First Study Session](00_Documentation/tutorials/First
 | [09_Tools_and_Pipeline](09_Tools_and_Pipeline/README.md)                   | Asset pipeline, serialization, build systems, editor tooling                |
 | [10_Audio](10_Audio/README.md)                                             | Real-time audio, mixing, spatialization, DSP                                |
 | [11_Networking](11_Networking/README.md)                                   | Transport, state sync, latency hiding, determinism                          |
+| [12_Research](12_Research/README.md)                                       | Venues, authors, landmark papers, open questions, finding new work          |
 
 Each domain link lands on that domain's **index** — what exists there now, and how much of it.
 The index links on to `00_Roadmap.md`, the study plan for what does not exist yet.
 
 Nothing here is ever finished — notes get revisited and deepened as the material gets used, and a domain reaching the end of its roadmap only means the first pass is done. Open threads are tracked in [TODO.md](TODO.md).
+
+---
+
+## Projects
+
+The notes are the theory; these are the things built from it. Each is its own repository —
+they are buildable projects with their own history, not folders in a vault.
+
+| Project | What it is | State |
+| :--- | :--- | :--- |
+| [ray-tracer](https://github.com/alessandrogpz/ray-tracer) | CPU ray tracer in C++, built test-first from *The Ray Tracer Challenge*. Spheres, Phong shading, shadows, matrix transforms | Renders scenes; 8 images in its README |
+| [learn-opengl](https://github.com/alessandrogpz/learn-opengl) | OpenGL 3.3 core-profile foundation — window, shaders, buffers | Early |
+| [pppc-notes](https://github.com/alessandrogpz/pppc-notes) | Chapter-by-chapter work through Stroustrup's *Programming: Principles and Practice*, 3rd ed. | Through the core chapters |
+| [dsa-notes](https://github.com/alessandrogpz/dsa-notes) | Data structures and algorithms practice | Ongoing |
+
+The mathematics those projects run on is documented here: the ray tracer's matrix transforms
+are derived in [04_Transforms](01_Mathematics/01_Linear_Algebra/README.md#04_transforms), and
+its intersection tests in [05_Geometry](01_Mathematics/01_Linear_Algebra/README.md#05_geometry).
+
+Links out use absolute URLs deliberately. A relative path between repositories resolves in
+neither Obsidian nor GitHub, so a cross-repository reference has to be a full link.
 
 ---
 
