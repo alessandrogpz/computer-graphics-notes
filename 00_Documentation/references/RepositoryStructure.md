@@ -9,7 +9,7 @@ to a bare folder does not resolve in Obsidian. Folders below subject level hold 
 and have none.
 
 ```text
-game-engine-notes/
+computer-graphics-notes/
 ├── 00_Documentation/                  # This folder — Diátaxis-organized docs
 │   ├── README.md                      #   Index of all four categories
 │   ├── tutorials/                     #   Learning-oriented walkthroughs
